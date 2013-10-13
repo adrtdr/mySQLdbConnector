@@ -1,7 +1,7 @@
-Torndb Documentation
-====================
+mySQLdbConnector Documentation
+==============================
 
-.. automodule:: torndb
+.. automodule:: mysqldbconn
    :members:
 
 Indices and tables

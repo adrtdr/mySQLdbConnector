@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Copyright 2012 Facebook
+# Copyright Adrian Toader
 #
 # Licensed under the Apache License, Version 2.0 (the "License"); you may
 # not use this file except in compliance with the License. You may obtain
@@ -19,12 +19,12 @@ import distutils.core
 version = "0.1"
 
 distutils.core.setup(
-    name="torndb",
-    version=version,
-    py_modules=["torndb"],
-    author="Facebook",
-    author_email="python-tornado@googlegroups.com",
-    url="https://github.com/bdarnell/torndb",
-    license="http://www.apache.org/licenses/LICENSE-2.0",
-    description="A lightweight wrapper around MySQLdb.  Originally part of the Tornado framework.",
-    )
+	name="mySQLdbConnector",
+	version=version,
+	py_modules=["mySQLdbConnector"],
+	author="Adrian Toader",
+	author_email="adr04@me.com",
+	url="https://github.com/adrtdr/mySQLdbConnector",
+	license="http://www.apache.org/licenses/LICENSE-2.0",
+	description="A lightweight wrapper around MySQLdb.",
+	)

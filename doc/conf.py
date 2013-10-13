@@ -1,15 +1,15 @@
-# Ensure we get the local copy of torndb instead of what's on the standard path
+# Ensure we get the local copy of mySQLdbConnector instead of what's on the standard path
 import os
 import sys
 sys.path.insert(0, os.path.abspath(".."))
-import torndb
+import mySQLdbConnector
 
 master_doc = "index"
 
-project = "Torndb"
-copyright = "2011, Facebook"
+project = "mySQLdbConnector"
+copyright = "Adrian Toader"
 
-version = release = torndb.version
+version = release = mySQLdbConnector.version
 
 extensions = ["sphinx.ext.autodoc", "sphinx.ext.coverage", "sphinx.ext.viewcode"]
 
