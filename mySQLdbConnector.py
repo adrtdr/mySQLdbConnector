@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 #
-# Copyright Adrian Toader
 #
 # Licensed under the Apache License, Version 2.0 (the "License"); you may
 # not use this file except in compliance with the License. You may obtain
@@ -29,7 +28,7 @@ try:
 	from mysql import connector as MySQLConnector
 except ImportError:
 	# If mysql (http://dev.mysql.com/downloads/connector/python/)
-	#isn't available this module won't actually be useable,
+	# isn't available this module won't actually be useable,
 	# but we want it to at least be importable on readthedocs.org,
 	# which has limitations on third-party modules.
 	if 'READTHEDOCS' in os.environ:
