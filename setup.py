@@ -21,8 +21,6 @@ distutils.core.setup(
 	name="mySQLdbConnector",
 	version=version,
 	py_modules=["mySQLdbConnector"],
-	author="Adrian Toader",
-	author_email="adr04@me.com",
 	url="https://github.com/adrtdr/mySQLdbConnector",
 	license="http://www.apache.org/licenses/LICENSE-2.0",
 	description="A lightweight wrapper around MySQLdb.",
